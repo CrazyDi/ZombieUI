@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: palevioletred;
+}
+
+main {
+    background-color: pink;
+}
+
+footer {
+    background-color: plum;
+}
+
+div.big {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+div.group {
+    background-color: aquamarine;
+
+    width: 512px;
+    height: 512px;
+    border: 1px black solid;
+}
