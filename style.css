@@ -112,9 +112,40 @@ body {
     align-items: flex-end;
 }
 
-.img__zombie {
+.img__box {
     height: 140px;
     width: 140px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.down {
+    align-items: flex-end;
+}
+
+.up {
+    align-items: flex-start;
+}
+
+.imp {
+    width: 48px;
+    height: 62px;
+}
+
+.conehead {
+    width: 70px;
+    height: 136px;
+}
+
+.running {
+    width: 98px;
+    height: 120px;
+}
+
+.flying {
+    width: 70px;
+    height: 124px;
 }
 
 .group__footer {
@@ -208,9 +239,29 @@ body {
         width: 76px;
     }
 
-    .img__zombie {
-        height: 200px;
+    .img__box {
         width: 200px;
+        height: 200px;
+    }
+
+    .imp {
+        width: 68px;
+        height: 88px;
+    }
+
+    .conehead {
+        width: 100px;
+        height: 192px;
+    }
+
+    .running {
+        width: 140px;
+        height: 172px;
+    }
+
+    .flying {
+        width: 100px;
+        height: 176px;
     }
 
     .main-footer {
@@ -332,13 +383,33 @@ body {
         padding: 20px;
     }
 
-    .img__zombie {
-        height: 280px;
-        width: 280px;
-    }
-
     .cell-name {
         width: 88px;
+    }
+
+    .img__box {
+        width: 280px;
+        height: 280px;
+    }
+
+    .imp {
+        width: 96px;
+        height: 124px;
+    }
+
+    .conehead {
+        width: 140px;
+        height: 272px;
+    }
+
+    .running {
+        width: 196px;
+        height: 240px;
+    }
+
+    .flying {
+        width: 140px;
+        height: 248px;
     }
 
     .group__footer__button {
@@ -355,8 +426,3 @@ body {
         height: 52px;
     }
 }
-
-
-
-
-
