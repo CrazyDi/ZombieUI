@@ -1,0 +1,428 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DDDDDD;
+    font-size: 16px;
+}
+
+.main-header__link {
+    margin-left: 12px;
+}
+
+.main-header__span {
+    margin-right: 12px;
+}
+
+.main-content {
+    margin-top: 40px;
+    flex: auto;
+}
+
+.main-content__h1 {
+    text-align: center;
+    margin: 0;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.big {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.group {
+    width: 296px;
+    height: 296px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group__header {
+    border: 1px solid #DDDDDD;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    height: 40px;
+}
+
+.group__main {
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.group__main__header {
+    height: 36px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.group__main__content {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.content__property {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.row {
+    display: flex;
+}
+
+.cell-name {
+    width: 56px;
+    color: #777777;
+}
+
+.content__img {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.img__box {
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.down {
+    align-items: flex-end;
+}
+
+.up {
+    align-items: flex-start;
+}
+
+.imp {
+    width: 48px;
+    height: 62px;
+}
+
+.conehead {
+    width: 70px;
+    height: 136px;
+}
+
+.running {
+    width: 98px;
+    height: 120px;
+}
+
+.flying {
+    width: 70px;
+    height: 124px;
+}
+
+.group__footer {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.group__footer__button {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    margin: 4px 0 0 4px;
+}
+
+.button__image {
+    height: 18px;
+    width: 18px;
+}
+
+.button__text {
+    flex: auto;
+    display: none;
+    color: #999999;
+}
+
+.main-footer {
+    height: 36px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #DDDDDD;
+}
+
+@media only screen and (min-width: 480px) {
+    .main-header {
+        height: 44px;
+    }
+
+    .main-header__link {
+        margin-left: 16px;
+    }
+
+    .main-header__span {
+        margin-right: 16px;
+    }
+
+    .main-content {
+        margin-top: 44px;
+    }
+
+    .main-content__h1 {
+        padding: 20px;
+    }
+
+    .big {
+        max-width: 480px;
+    }
+
+    .group {
+        width: 404px;
+        height: 404px;
+        margin: 20px;
+    }
+
+    .group__header {
+        height: 48px;
+        padding: 16px;
+    }
+
+    .group__main {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .group__main__header {
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .content__property {
+        row-gap: 16px;
+    }
+
+    .cell-name {
+        width: 76px;
+    }
+
+    .img__box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .imp {
+        width: 68px;
+        height: 88px;
+    }
+
+    .conehead {
+        width: 100px;
+        height: 192px;
+    }
+
+    .running {
+        width: 140px;
+        height: 172px;
+    }
+
+    .flying {
+        width: 100px;
+        height: 176px;
+    }
+
+    .main-footer {
+        height: 40px;
+        padding: 16px;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .main-header {
+        height: 48px;
+    }
+
+    .main-header__link {
+        margin-left: 20px;
+    }
+
+    .main-header__span {
+        margin-right: 20px;
+    }
+
+    .main-content {
+        margin-top: 48px;
+    }
+
+    .main-content__h1 {
+        padding: 24px;
+    }
+
+    .big {
+        max-width: 720px;
+    }
+
+    .group {
+        width: 404px;
+        height: 404px;
+        margin: 24px;
+    }
+
+    .main-footer {
+        height: 44px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .main-header {
+        height: 52px;
+    }
+
+    .main-header__link {
+        margin-left: 24px;
+    }
+
+    .main-header__span {
+        margin-right: 24px;
+    }
+
+    .main-content {
+        margin-top: 52px;
+    }
+
+    .main-content__h1 {
+        padding: 28px;
+    }
+
+    .big {
+        max-width: 960px;
+    }
+
+    .group {
+        width: 404px;
+        height: 404px;
+        margin: 28px 20px;
+    }
+
+    .main-footer {
+        height: 48px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .main-header {
+        height: 56px;
+    }
+
+    .main-header__link {
+        margin-left: 28px;
+    }
+
+    .main-header__span {
+        margin-right: 28px;
+    }
+
+    .main-content {
+        margin-top: 56px;
+    }
+
+    .main-content__h1 {
+        padding: 32px;
+    }
+
+    .big {
+        max-width: 1200px;
+    }
+
+    .group {
+        width: 512px;
+        height: 512px;
+        margin: 28px 32px;
+    }
+
+    .group__header {
+        font-size: 20px;
+        height: 60px;
+        padding: 20px;
+    }
+
+    .group__main {
+        padding: 20px;
+    }
+
+    .cell-name {
+        width: 88px;
+    }
+
+    .img__box {
+        width: 280px;
+        height: 280px;
+    }
+
+    .imp {
+        width: 96px;
+        height: 124px;
+    }
+
+    .conehead {
+        width: 140px;
+        height: 272px;
+    }
+
+    .running {
+        width: 196px;
+        height: 240px;
+    }
+
+    .flying {
+        width: 140px;
+        height: 248px;
+    }
+
+    .group__footer__button {
+        width: 112px;
+        margin: 8px 0 0 8px;
+        object-position: left;
+    }
+
+    .button__text {
+        display: initial;
+    }
+
+    .main-footer {
+        height: 52px;
+    }
+}
